@@ -1,18 +1,9 @@
 package basicjavaprograms;
 
-import java.util.Scanner;
-
 public class TripletsAddZero {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter length of an array :");
-		int arrayLength = scanner.nextInt();
-		int mainArray[] = new int[arrayLength];
-		int c;
-		for (c = 0; c < arrayLength; c++) {
-			System.out.println("Enter element of array :");
-			mainArray[c] = scanner.nextInt();
-		}
+		int mainArray[] =  { 0, -1, 2, -3, 1 };
+		int arrayLength = mainArray.length;
 		findTriplets(mainArray, arrayLength);
 
 	}
@@ -30,7 +21,7 @@ public class TripletsAddZero {
 			}
 		}
 		if (isfound == false)
-			System.out.println(" not exist ");
+			System.out.println("sum of triples element  0 is  not exist in an array ");
 
 	}
 }
