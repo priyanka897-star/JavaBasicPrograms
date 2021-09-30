@@ -12,8 +12,8 @@ public class FlipCoin {
 		scanner.close();
 		int heads = 0;
 		int tails = 1;
-        if (noOfFlips >= 0) // if noOfFlips are positive then the Program will execute
-		{
+		// if noOfFlips are positive then the Program will execute
+        if (noOfFlips >= 0){
         	int random = (int) Math.floor(Math.random() * 2);
 			for (int i = 0; i < noOfFlips; i++) {
 				if (random > 0.5) {
