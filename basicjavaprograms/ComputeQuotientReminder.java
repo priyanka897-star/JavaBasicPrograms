@@ -18,9 +18,10 @@ public class ComputeQuotientReminder {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter a Dividend");
-		int dividend = scanner.nextInt();
+		final int dividend = scanner.nextInt();
 		System.out.println("Enter a Divider");
-		int divider = scanner.nextInt();
+		final int divider = scanner.nextInt();
+		scanner.close();
 		System.out.println("Quotient is " + ComputeQuotient(dividend, divider));
 		System.out.println("Remainder is " + ComputeReminder(dividend, divider));
 	}

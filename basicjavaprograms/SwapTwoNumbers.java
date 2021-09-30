@@ -9,6 +9,7 @@ public class SwapTwoNumbers {
 		int number1 = scanner.nextInt();
 		System.out.println("Enter Number 2  value");
 		int number2 = scanner.nextInt();
+		scanner.close();
 		System.out.println("Before Swap");
 		System.out.println("Number 1 = " + number1);
 		System.out.println("Number 2 = " + number2);

@@ -11,11 +11,13 @@ public class HarmonicNumber {
 		return sum;
 	}
 
-	// Driven Program
+	
 	public static void main(String args[]) {
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter a Number :");
 		int number = scanner.nextInt();
+		scanner.close();
 		if (number != 0) {
 			System.out.printf("Sum is %f", harmonic(number));
 		} else {
