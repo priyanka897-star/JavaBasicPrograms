@@ -11,15 +11,13 @@ public class PowerOfTwo {
 		{
 		double powerValue = Math.pow(2, number);
 		System.out.println(powerValue);
-		
 		for(int i = 0; i <= number; i++)
 		{
 			System.out.println("2^" + i + "=" + Math.pow(2, i));
 		}
-	
-		}
+                }
 		else {
-			System.out.println("OVerflow an Interger");
+			System.out.println("Overflow an Interger");
 		}
-    }
+      }
 }
