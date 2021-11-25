@@ -13,8 +13,8 @@ public class FlipCoin {
 		int heads = 0;
 		int tails = 1;
 		// if noOfFlips are positive then the Program will execute
-        if (noOfFlips >= 0){
-        	int random = (int) Math.floor(Math.random() * 2);
+                 if (noOfFlips >= 0){
+        	        int random = (int) Math.floor(Math.random() * 2);
 			for (int i = 0; i < noOfFlips; i++) {
 				if (random > 0.5) {
 					tails++;
@@ -30,7 +30,7 @@ public class FlipCoin {
 			System.out.println("Heads Percentage is :" + headsPercentage);
 			System.out.println("Tails Percentage is :" + tailsPercentage);
 		}
-        else{
+               else{
 			System.out.println("Enter Positive Number");
 		}
 	}
